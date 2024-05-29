@@ -1,0 +1,7 @@
+27 Dec 2023 10:22AM
+  Series Data File Generated for Annual Mean Precipitation
+  Region: User Defined
+  Period: 4000 BP - 100 BP
+  Interval: 30 year intervals taken in 30 year steps
+  Bias Correction: On
+  CSV data file generated in C:\Users\a02179657\Dropbox\agg_macroecology\ArgentinaBoomBust\27Dec2023_1021AM_47.500s

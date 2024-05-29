@@ -1,0 +1,50 @@
+This repository contains data files and for Freeman et al. 2024 Plos One submission: ``A model of long-term population growth with an application to Central West Argentina"
+
+The main directory contains two data files, three R-script files, and three sub-directories.
+
+
+Data Files: 
+
+S1File.csv. This file contains the raw archaeological radiocarbon used in the analsysis presented in the paper
+
+Column definitions for S1File.csv: 
+LabID: lab identification number of a radiocarbon age
+Age: Mean radiocarbon age of a sample
+Error: Standard error of the age of a radiocarbon sample
+Material: Material dataed
+Taxa: Identification of material dated
+Area: Sub-region of Central West Argentina
+Lat: Latitiude of the site from which the material sample was collected
+Log: Longitude of the site from which the material sample was collected
+SiteName: The site name of location from which the material sample was collected
+Country: Country name
+Province: Province of the country
+Type: Open vs closed site location
+Reference: Publication with the originial data
+
+S2File.csv: Human bone isotope data used in the analysis.
+Column definitions for S2File.csv: 
+Region: Sub-region of Central West Argentina
+SiteName: The site name of location from which the material sample was collected
+calBP: Estimated calibrated date of a sample
+PeriodID: Temporal Phase that a sample falls into
+d13Ccol: delta 13C collogen value
+d15N: delta 15N collage value
+d15Ncorr: Corrected delta 15N collage value by age
+d13Cca: delta 13C carbonate value
+Lat: Latitiude of the site from which the material sample was collected
+Log: Longitude of the site from which the material sample was collected
+
+
+R-scripts: 
+S3File_MendozaV1.2.R: Runs the main radiocarbon analysis and human bone isotope analysis
+S4CauseImpact.R: Runs the causal impact analysis
+S5MendzTaph.R: Runs the exploration of taphonomic adjustment present in S1 Appendix
+
+Directories:
+Updated: Contains processed data used in the analsysis of radiocarbon and human bone isotopes
+CausalImpact: Contains processed data used in the causal impact analysis
+SI: Contains processed data used in the taphonomic adjustment analysis
+
+
+
